@@ -1,0 +1,16 @@
+{
+  "name": "jsvm",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Javascript Virtual Machine",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "assemble": "node ./assembler/index.js ./assembler/program.asm ./assembler/program.bin"
+  },
+  "author": "Flynow10",
+  "license": "MIT",
+  "dependencies": {
+    "arcsecond": "^4.1.0"
+  }
+}
